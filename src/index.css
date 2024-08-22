@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  /* border: 1px solid black; */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 60dvw;
+  /* border: 1px solid black; */
+  height: 100dvh;
+}
+
+.block {
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+  /* transform: translateY(-50px); */
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(yellow, pink);
+  transform: translateY(-200px);
+}
